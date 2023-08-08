@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4rem;
+    gap: 2rem;
 }
 .hero-text-heading-1 {
     color: var(--cream);
@@ -80,9 +80,18 @@ body {
     color: var(--orange);
 }
 
+.hero-text-paragraph {
+    width: 300px;
+    margin: 0 auto;
+    color: var(--orange);
+    font-weight: bold;
+    opacity: .9;
+    padding-top: 1rem;
+}
+
 .hero-illustration-computer {
     display: block;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -97,6 +106,7 @@ body {
     opacity: .8;
     padding-bottom: 2rem;
  }
+
  .my-skills-list {
     color: var(--navy);
     font-weight: bold;
@@ -104,5 +114,73 @@ body {
     flex-direction: column;
     gap:2rem;
  }
+.my-skills-list-heading-3 {
+    padding-bottom: 1rem;
+}
+.my-skills-list-icon {
+    opacity: .9;
+ }
+.icon-js {
+    background: #323330;
+}
+ .my-skills-list-paragraph{
+    
+    opacity: .8;
+ }
 
- 
+ /* MY-PROJECTS */
+.projects {
+    padding: 4rem 0;
+}
+
+.projects-heading-3 {
+    color: var(--navy);
+    opacity: .75;
+    
+}
+.projects-heading-4 {
+    color: var(--navy); 
+    padding: 2rem 0 1rem 0;   
+} 
+
+.project-screenshot-img {
+    width: 100%;
+    display: block;
+}
+ /* CONTACT DETAILS*/
+ .contact {
+    padding: 4rem;
+    background: var(--navy);
+ }
+.contact-heading-2 {
+    color: var(--cream);
+}
+.contact-paragraph {
+    padding: 0 0 2rem 0;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+textarea {
+    border: 5px solid var(--orange);
+    border-radius: 10px;
+    padding: .5rem;
+    margin: 2rem;
+    color: var(--navy);
+}
+
+.submit {
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background: var(--orange);
+    color: var(--cream);
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+ }
+
+ .submit:hover {
+    background: var(--cream);
+    color: var(--orange);
+ }
