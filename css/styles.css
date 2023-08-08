@@ -15,20 +15,22 @@
 
 body {
     text-align: center;
+    font-size: 18px;
 }
 
 /* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--navy);
 }
 .navbar-logo a{
     font-weight: 700;
 }
 .navbar-logo a, .navbar-nav-items a{
     text-decoration: none;
-    color: #FF6E31;
+    color: var(--cream);
 }
 
 .navbar-nav-items {
@@ -50,10 +52,57 @@ body {
     padding: .5rem;
 }
 
-.navbar-nav-items .nav-item a:hover {
+.navbar-nav-items .nav-item a:hover,  .navbar-nav-items .nav-item a.active{
     font-weight: 700;
     text-transform: uppercase;
     background-color: var(--navy);
     color: #fff;
     padding: .5rem;
 }
+
+/* HERO */
+.hero {
+    background-color: var(--navy);
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.hero-text-heading-1 {
+    color: var(--cream);
+    /* 2em 5vw*/
+    font-size: 2em;
+}
+
+
+.hero-text-heading-1-background {
+    color: var(--orange);
+}
+
+.hero-illustration-computer {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* MY-SKILLS */
+ .my-skills {
+    padding: 4rem 2rem;
+    background: var(--cream);
+    
+ }
+ .my-skills-heading-2 {
+    color: var(--orange);
+    opacity: .8;
+    padding-bottom: 2rem;
+ }
+ .my-skills-list {
+    color: var(--navy);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+ }
+
+ 
